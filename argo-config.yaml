@@ -14,3 +14,5 @@ spec:
     path: cluster
     repoURL: https://github.com/cdwertmann/test
     targetRevision: HEAD
+  syncPolicy:
+    automated: {}
