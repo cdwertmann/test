@@ -12,3 +12,18 @@ spec:
     path: cluster/lvm/overlays/model
     repoURL: https://github.com/cdwertmann/test
     targetRevision: HEAD
+---
+apiVersion: argoproj.io/v1alpha1
+kind: Application
+metadata:
+  name: acm
+  namespace: openshift-gitops
+spec:
+  destination:
+    namespace: default
+    server: https://kubernetes.default.svc
+  project: default
+  source:
+    path: cluster/acm/overlays/model
+    repoURL: https://github.com/cdwertmann/test
+    targetRevision: HEAD

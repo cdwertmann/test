@@ -1,0 +1,5 @@
+namePrefix: model-
+commonLabels:
+  variant: model
+bases:
+- ../../base
