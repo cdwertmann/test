@@ -1,7 +1,7 @@
 apiVersion: argoproj.io/v1alpha1
 kind: Application
 metadata:
-  name: cluster-configs
+  name: lvm
   namespace: openshift-gitops
 spec:
   destination:
@@ -9,10 +9,6 @@ spec:
     server: https://kubernetes.default.svc
   project: default
   source:
-    directory:
-      recurse: true
-    path: cluster
+    path: cluster/lvm/overlays/model
     repoURL: https://github.com/cdwertmann/test
     targetRevision: HEAD
-  syncPolicy:
-    automated: {}
