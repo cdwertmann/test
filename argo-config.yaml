@@ -11,7 +11,7 @@ spec:
   source:
     directory:
       recurse: true
-    path: cluster
+    path: cluster/lvm-kustomize
     repoURL: https://github.com/cdwertmann/test
     targetRevision: HEAD
   syncPolicy:
