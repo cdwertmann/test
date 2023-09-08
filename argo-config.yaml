@@ -9,6 +9,6 @@ spec:
     server: https://kubernetes.default.svc
   project: default
   source:
-    path: root
+    path: bootstrap
     repoURL: https://github.com/cdwertmann/test
     targetRevision: HEAD
