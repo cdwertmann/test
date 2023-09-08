@@ -1,9 +1,9 @@
 {
-  "appName": "hello-world",
-  "userGivenName": "hello-world",
+  "appName": "quay",
+  "userGivenName": "quay",
   "destNamespace": "default",
   "destServer": "https://kubernetes.default.svc",
-  "srcPath": "apps/hello-world/overlays/testing",
+  "srcPath": "apps/quay/overlays/testing",
   "srcRepoURL": "https://github.com/cdwertmann/test",
   "srcTargetRevision": "",
   "labels": null,

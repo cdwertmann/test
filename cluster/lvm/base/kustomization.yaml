@@ -1,6 +1,0 @@
-resources:
-  - namespace.yaml
-  - rolebinding.yaml
-  - operatorgroup.yaml
-  - subscription.yaml
-  - lvmcluster.yaml

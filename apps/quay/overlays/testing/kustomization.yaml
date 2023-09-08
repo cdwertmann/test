@@ -1,0 +1,5 @@
+namePrefix: testing-
+commonLabels:
+  variant: testing
+bases:
+- ../../base
