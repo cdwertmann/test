@@ -4,7 +4,7 @@
   "destNamespace": "default",
   "destServer": "https://kubernetes.default.svc",
   "srcPath": "apps/hello-world/overlays/testing",
-  "srcRepoURL": "https://github.com/cdwertmann/argocdautopilot.git",
+  "srcRepoURL": "https://github.com/cdwertmann/test",
   "srcTargetRevision": "",
   "labels": null,
   "annotations": null
