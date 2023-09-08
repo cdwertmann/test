@@ -7,7 +7,7 @@ metadata:
     argocd.argoproj.io/sync-wave: "-2"
   creationTimestamp: null
   name: lvm
-  namespace: default
+  namespace: openshift-gitops
 spec:
   clusterResourceWhitelist:
   - group: '*'
@@ -31,7 +31,7 @@ metadata:
     argocd.argoproj.io/sync-wave: "0"
   creationTimestamp: null
   name: lvm
-  namespace: default
+  namespace: openshift-gitops
 spec:
   generators:
   - git:
