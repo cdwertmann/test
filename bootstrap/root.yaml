@@ -32,6 +32,4 @@ status:
   sync:
     comparedTo:
       destination: {}
-      source:
-        repoURL: ""
     status: ""
