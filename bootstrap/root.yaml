@@ -32,4 +32,3 @@ status:
   sync:
     comparedTo:
       destination: {}
-    status: ""
