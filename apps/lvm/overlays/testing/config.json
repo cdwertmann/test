@@ -1,0 +1,11 @@
+{
+  "appName": "lvm",
+  "userGivenName": "lvm",
+  "destNamespace": "default",
+  "destServer": "https://kubernetes.default.svc",
+  "srcPath": "apps/lvm/overlays/testing",
+  "srcRepoURL": "https://github.com/cdwertmann/test",
+  "srcTargetRevision": "",
+  "labels": null,
+  "annotations": null
+}
